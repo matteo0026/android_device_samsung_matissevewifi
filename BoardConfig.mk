@@ -44,3 +44,7 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
 # RIL
 BOARD_PROVIDES_LIBRIL := false
+
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /system/vendor/lib/libperipheral_client.so|libshim_binder.so
