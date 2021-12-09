@@ -5,7 +5,7 @@ on boot
     write /sys/class/touch_screen/control manual
     write /sys/class/touch_screen/enabled true
 
- on fs
+on fs
     wait /dev/block/platform/soc.0/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc.0/${ro.boot.bootdevice} /dev/block/bootdevice
     setprop sys.usb.ffs.aio_compat 1
