@@ -3,10 +3,10 @@
 /system          ext4              /dev/block/bootdevice/by-name/system
 /data	         ext4              /dev/block/bootdevice/by-name/userdata  
 /cache	         ext4              /dev/block/bootdevice/by-name/cache
-#/firmware        emmc              /dev/block/bootdevice/by-name/modem             flags=display="Modem";backup=0
-#/misc	         emmc              /dev/block/bootdevice/by-name/fota              flags=display="Misc"
-#/efs             ext4              /dev/block/bootdevice/by-name/efs               flags=display="EFS";backup=1
-#/persist         ext4              /dev/block/bootdevice/by-name/persist           flags=display="Persist";backup=1
+/firmware        emmc              /dev/block/bootdevice/by-name/modem             flags=display="Modem";backup=0
+/misc	         emmc              /dev/block/bootdevice/by-name/fota              flags=display="Misc"
+/efs             ext4              /dev/block/bootdevice/by-name/efs               flags=display="EFS";backup=1
+/persist         ext4              /dev/block/bootdevice/by-name/persist           flags=display="Persist";backup=1
 
-/external_sd     auto              /dev/block/mmcblk1p1        flags=display="Micro SDcard";storage;wipeingui;removable
+/external_sd     auto              /dev/block/mmcblk1p1                            flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg         auto              /dev/block/sda1       /dev/block/sda            flags=display="USB Storage";storage;wipeingui;removable
