@@ -1,3 +1,5 @@
-# android_device_samsung_matissevewifi
+# TWRP device tree for the Samsung Galaxy Tab 4 10.1 (2015), aka matissevewifi
 
-Actual status: No MTP support : on PC unknown USB device (when pluging tab)/ no message at all on my laptop Rebooting to recovery >> > reboot to system
+For building TWRP only.
+
+Kernel source available on: https://github.com/matteo0026/android_kernel_samsung_matissevewifi
